@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki searchApp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Wiki search App</h1>
+                <p>Look up for meaning of word, verb and phrase</p>
+                <form action="" class="form">
+                    <input type="search" name="" class="search-input js-search-input" placeholder="Enter a word to search for" autofocus/>
+                    <!-- <button>Search</button> -->
+                </form>
+            </div>
+        </section>
+        <div class="container">
+            <div class="loading-indicator">
+                <div class="sk-chase js-spinner hidden">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <section class="search-match js-search-match"> </section>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
