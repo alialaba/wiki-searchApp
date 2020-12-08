@@ -109,7 +109,7 @@ input:focus {
     display: block;
     width: 25%;
     height: 25%;
-    background-color: #ffffff;
+    background-color: #00008b;
     border-radius: 100%;
     animation: sk-chase-dot-before 2.0s infinite ease-in-out both;
 }
